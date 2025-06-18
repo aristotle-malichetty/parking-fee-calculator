@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Fee Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Social Share Image (Open Graph) -->
+    <meta property="og:image" content="https://pagemaker.b-cdn.net/media/126844/1880x1576.jpg">
+    <meta property="og:title" content="Parking Fee Calculator">
+    <meta property="og:description" content="Quickly calculate parking fees with daily max and grace period.">
+</head>
+<body>
+    <div class="container">
+        <h1>Parking Fee Calculator</h1>
+        <div class="input-group">
+            <label for="entry-date">Entry Date:</label>
+            <input type="date" id="entry-date" required>
+        </div>
+        <div class="input-group">
+            <label for="entry-time">Entry Time:</label>
+            <div class="time-input">
+                <select id="hour-select"></select> :
+                <select id="minute-select"></select>
+                <select id="ampm-select">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+        </div>
+        <div class="fee-display">
+            <div class="fee-amount" id="fee-amount">$0.00</div>
+            <div class="fee-label">Total Parking Fee</div>
+        </div>
+        <button id="clear-btn">Clear</button>
+        <div class="error-message" id="error-message"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
