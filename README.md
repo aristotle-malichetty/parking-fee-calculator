@@ -14,7 +14,6 @@ A quick, online-capable web app I vibecoded in under an hour for my friend who r
 - **Real-time Updates:** Fee updates as you change the entry time.
 - **Clear Button:** Reset for the next customer.
 - **Mobile-friendly:** Works on any device.
-- **Offline Capable:** No internet needed.
 
 ## How to Use
 
