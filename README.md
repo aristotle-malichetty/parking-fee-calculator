@@ -2,6 +2,9 @@
 
 A quick, online-capable web app I vibecoded in under an hour for my friend who runs a parking garage. Built with vanilla HTML, CSS, and JavaScript using Cursor.
 
+![social share](https://github.com/user-attachments/assets/bd29bb5d-9c7b-468b-9eb1-6e7a527d25b5)
+
+
 ## What It Does
 
 - **Entry Date & Time:** Select when the customer entered.
